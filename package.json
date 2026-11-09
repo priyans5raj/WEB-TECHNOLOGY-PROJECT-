@@ -1,0 +1,13 @@
+{
+  "name": "smart-attendance-management-system",
+  "version": "1.0.0",
+  "description": "Smart Attendance Management System - student registration, attendance entry, attendance percentage, date-wise reports and dashboards",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings server.js",
+    "seed": "node --no-warnings db.js --reseed",
+    "test": "node --no-warnings tests/api.test.js"
+  },
+  "engines": { "node": ">=22.5.0" },
+  "license": "MIT"
+}
